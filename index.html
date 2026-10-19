@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-сторінка для Хацько Євгенії</title>
+    <style>
+        /* Базові стилі сторінки */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Шапка сайту */
+        header {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Контейнер для вмісту */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Стилізація секцій */
+        section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #2d3436;
+            border-bottom: 3px solid #6c5ce7;
+            padding-bottom: 8px;
+            margin-top: 0;
+            font-size: 1.6rem;
+        }
+
+        /* Блоки з демонстрацією */
+        .demo-box {
+            background-color: #fafafa;
+            border-left: 5px solid #a29bfe;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Спеціальний блок порад для Євгенії */
+        .tips-box {
+            background: #eef2ff;
+            border: 1px dashed #6c5ce7;
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .tips-box h3 {
+            color: #6c5ce7;
+            margin-top: 0;
+        }
+
+        .tips-box ul {
+            padding-left: 20px;
+        }
+
+        .tips-box li {
+            margin-bottom: 12px;
+        }
+
+        /* Елементи коду */
+        code {
+            background-color: #ffeaa7;
+            color: #d63031;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        /* Колірні палітри */
+        .color-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Персональна веб-сторінка</h1>
+        <p>Спеціально для: <strong>Хацько Євгенії</strong></p>
+    </header>
+
+    <div class="container">
+
+        <!-- РОЗДІЛ: КОЛЬОРИ -->
+        <section id="colors">
+            <h2>Розділ 1: Кольори в HTML та CSS</h2>
+            <p>У веб-дизайні кольори можна задавати кількома основними способами за допомогою CSS:</p>
+            <div class="demo-box">
+                <p>1. <b>Назви кольорів:</b> безпосереднє використання слів, наприклад: 
+                    <span class="color-badge" style="background-color: red;">red</span>, 
+                    <span class="color-badge" style="background-color: blue;">blue</span>, 
+                    <span class="color-badge" style="background-color: green;">green</span>.
+                </p>
+                <p>2. <b>HEX-коди:</b> шістнадцяткові значення, які починаються з решітки. Наприклад, глибокий фіолетовий колір цієї сторінки — це код <code>#6c5ce7</code>.</p>
+                <p>3. <b>Формат RGB / RGBA:</b> задає змішування червоного, зеленого та синього каналів. Літера «A» відповідає за прозорість (від 0 до 1). Наприклад: <code>rgba(108, 92, 231, 0.1)</code>.</p>
+            </div>
+        </section>
+
+        <!-- РОЗДІЛ: CSS -->
+        <section id="css">
+            <h2>Розділ 2: Що таке CSS та як він працює?</h2>
+            <p><strong>CSS (Cascading Style Sheets)</strong> — це каскадні таблиці стилів. Якщо HTML відповідає за каркас та текст сайту, то CSS перетворює його на красиву цукерку.</p>
+            <div class="demo-box">
+                <p>За допомогою CSS на цій сторінці було налаштовано:</p>
+                <ul>
+                    <li><em>Шрифти:</em> прибрано стандартний Times New Roman та встановлено плавний <code>Segoe UI</code>.</li>
+                    <li><em>Тіні:</em> додано м'яку тінь <code>box-shadow</code> під кожним білим блоком для ефекту глибини.</li>
+                    <li><em>Градієнт:</em> шапка сайту розфарбована не одним кольором, а плавним переливом від фіолетового до бузкового.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ПОРАДИ ДЛЯ ЄВГЕНІЇ: ЯК ЗРОБИТИ САЙТ ПРИВАБЛИВИМ -->
+        <section class="tips-box">
+            <h3>✨ Поради для Хацько Євгенії: як зробити цей сайт ще більш привабливим</h3>
+            <p>Євгеніє, щоб перетворити звичайну веб-сторінку на професійний, сучасний сайт, варто впровадити такі кроки:</p>
+            <ul>
+                <li><strong>Анімації при наведенні (Hover-ефекти):</strong> Можна додати плавне збільшення блоків або зміну кольору посилань, коли користувач наводить на них курсор миші (використовуючи CSS-властивість <code>transition</code>).</li>
+                <li><strong>Кастомні шрифти:</strong> Замість системних шрифтів підключіть стильні безкоштовні шрифти через <em>Google Fonts</em> (наприклад, <b>Montserrat</b> для заголовків та <b>Inter</b> для звичайного тексту).</li>
+                <li><strong>Якісна інфографіка та іконки:</strong> Замініть звичайні маркери списків на красиві іконки з бібліотеки <em>FontAwesome</em> або додайте легкі SVG-ілюстрації.</li>
+                <li><strong>Темна тема (Dark Mode):</strong> Сучасний тренд — додавання перемикача між світлою та темною темами сайту. Це не тільки красиво, але й береже очі користувачів увечері.</li>
+                <li><strong>Ефект Скломорфізму (Glassmorphism):</strong> Створення напівпрозорих задніх фонів із розмиттям за допомогою CSS-команди <code>backdrop-filter: blur()</code>, що імітує матове скло.</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
